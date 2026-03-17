@@ -1,0 +1,37 @@
+.container{
+    height: 600;
+    /*border: 2px solid green;*/
+    margin: 80px;
+    padding-left: 100px;
+}
+.container-1{
+    display: inline-block;
+    width: 300px;
+   /* height: 600px;*/
+    /* border: 2px solid red; */
+    vertical-align: top;
+}
+.container-2{
+    display: inline-block;
+    width: 300px;
+    /*height: 600px;*/
+    /* border: 2px solid red; */
+    vertical-align: top;
+}
+.container-3{
+    display: inline-block;
+    width: 300px;
+   /* height: 600px;*/
+    /* border: 2px solid red; */
+    vertical-align: top;
+}
+.container-4{
+    display: inline-block;
+    width: 300px;
+   /* height: 600px;*/
+    /* border: 2px solid red; */
+    vertical-align: top;
+}
+img{
+    width: 100%;
+}
