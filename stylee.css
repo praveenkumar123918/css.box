@@ -1,0 +1,82 @@
+.
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+.logo{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: left;
+    font-size: 16px;
+    transition: 0.35;
+}
+nav a:hover{
+    color: yellow;
+}
+.home{
+    text-align: center;
+    padding: 100px;
+    background-color: liner-gradinet(to right,#4facfe,#00f2fe );
+    color:red;
+}
+.home button{
+    padding: 10px 20 px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section{
+    text-align: center;
+    padding: 50px;
+}
+#about img{
+    width: 150px;
+    border-radius: 50%;
+}
+.skills{
+    width: 60%;
+    margin: 10px auto;
+    text-align: left;
+}
+.bar{
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.fill{
+    height: 10px;
+    border-radius: 10px;
+    background: blue;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+form input,form textarea{
+    width:250px;
+    margin: 5px;
+    padding: 8px;
+}
+form button{
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+}
